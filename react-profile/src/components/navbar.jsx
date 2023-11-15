@@ -9,7 +9,7 @@ export default function Navbar() {
         <h1>Paul Cervantes</h1>
       </section>
       <ul>
-        <li>
+        <li className="list1">
           <Link
             to="/"
             className={
@@ -19,7 +19,7 @@ export default function Navbar() {
             About me
           </Link>
         </li>
-        <li>
+        <li className="list1">
           <Link
             to="/Portfolio"
             className={
@@ -29,7 +29,7 @@ export default function Navbar() {
             Portfolio
           </Link>
         </li>
-        <li>
+        <li className="list1">
           <Link
             to="/contact"
             className={
@@ -39,7 +39,7 @@ export default function Navbar() {
             Contact
           </Link>
         </li>
-        <li>
+        <li className="list1">
           <Link
             to="/Resume"
             className={
